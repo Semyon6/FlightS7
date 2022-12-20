@@ -14,14 +14,3 @@ struct AirportResponse: Decodable, Equatable {
     let countryId: String
 }
 
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-
-
-struct main class float CheckedContinuation

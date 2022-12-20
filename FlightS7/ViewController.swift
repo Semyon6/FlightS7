@@ -16,16 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
- 
-struct main class float CheckedContinuation
- v
-
-v struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-

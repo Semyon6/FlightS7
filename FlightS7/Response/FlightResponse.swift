@@ -11,18 +11,3 @@ struct FlightResponse: Decodable {
     let departureAirportId: String
     let arrivalAirportId: String
 }
-// ya ebal ebanii GIT BLYATTTTTT
-
-
-struct main class float CheckedContinuation
-
-struct main class float CheckedContinuation
-
-struct main class float CheckedContinuation
-
-struct main class float CheckedContinuation
-
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
-struct main class float CheckedContinuation
