@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3127F2B29644DD80083218E /* AirportDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3127F2A29644DD80083218E /* AirportDTO.swift */; };
+		E3127F2D296451520083218E /* FlightDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3127F2C296451520083218E /* FlightDTO.swift */; };
 		E3DD3BD829521BB800AE299D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3BD729521BB800AE299D /* AppDelegate.swift */; };
 		E3DD3BDA29521BB800AE299D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3BD929521BB800AE299D /* SceneDelegate.swift */; };
 		E3DD3BDC29521BB800AE299D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3BDB29521BB800AE299D /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3127F2A29644DD80083218E /* AirportDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDTO.swift; sourceTree = "<group>"; };
+		E3127F2C296451520083218E /* FlightDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDTO.swift; sourceTree = "<group>"; };
 		E3DD3BD429521BB800AE299D /* FlightS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DD3BD729521BB800AE299D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3DD3BD929521BB800AE299D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3127F2729644D490083218E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E3DD3BDB29521BB800AE299D /* ViewController.swift */,
+				E3DD3BD929521BB800AE299D /* SceneDelegate.swift */,
+				E3DD3BD729521BB800AE299D /* AppDelegate.swift */,
+				E3DD3BDD29521BB800AE299D /* Main.storyboard */,
+				E3DD3BE029521BB900AE299D /* Assets.xcassets */,
+				E3DD3BE229521BB900AE299D /* LaunchScreen.storyboard */,
+				E3DD3BE529521BB900AE299D /* Info.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E3127F2829644D8C0083218E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3127F2929644D9A0083218E /* DTO */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3127F2929644D9A0083218E /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				E3127F2A29644DD80083218E /* AirportDTO.swift */,
+				E3127F2C296451520083218E /* FlightDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 		E3DD3BCB29521BB800AE299D = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +95,9 @@
 		E3DD3BD629521BB800AE299D /* FlightS7 */ = {
 			isa = PBXGroup;
 			children = (
-				E3DD3BD729521BB800AE299D /* AppDelegate.swift */,
-				E3DD3BD929521BB800AE299D /* SceneDelegate.swift */,
-				E3DD3BDB29521BB800AE299D /* ViewController.swift */,
-				E3DD3BDD29521BB800AE299D /* Main.storyboard */,
-				E3DD3BE029521BB900AE299D /* Assets.xcassets */,
-				E3DD3BE229521BB900AE299D /* LaunchScreen.storyboard */,
-				E3DD3BE529521BB900AE299D /* Info.plist */,
+				E3127F2729644D490083218E /* Main */,
 				E3DD3BEB29521BC700AE299D /* Response */,
+				E3127F2829644D8C0083218E /* Model */,
 			);
 			path = FlightS7;
 			sourceTree = "<group>";
@@ -156,7 +186,9 @@
 				E3DD3BDC29521BB800AE299D /* ViewController.swift in Sources */,
 				E3DD3BD829521BB800AE299D /* AppDelegate.swift in Sources */,
 				E3DD3BEF29521BFE00AE299D /* FlightResponse.swift in Sources */,
+				E3127F2D296451520083218E /* FlightDTO.swift in Sources */,
 				E3DD3BDA29521BB800AE299D /* SceneDelegate.swift in Sources */,
+				E3127F2B29644DD80083218E /* AirportDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
