@@ -11,6 +11,7 @@
 		E3127F2D296451520083218E /* FlightDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3127F2C296451520083218E /* FlightDTO.swift */; };
 		E3127F2F29684A110083218E /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3127F2E29684A110083218E /* setting.swift */; };
 		E3127F3429684F730083218E /* FlightsNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3127F3329684F730083218E /* FlightsNetworkService.swift */; };
+		E3BB98B0296A34C40041E5AF /* SettingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB98AF296A34C40041E5AF /* SettingRepository.swift */; };
 		E3DD3BD829521BB800AE299D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3BD729521BB800AE299D /* AppDelegate.swift */; };
 		E3DD3BDA29521BB800AE299D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3BD929521BB800AE299D /* SceneDelegate.swift */; };
 		E3DD3BDC29521BB800AE299D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3BDB29521BB800AE299D /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		E3127F2C296451520083218E /* FlightDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDTO.swift; sourceTree = "<group>"; };
 		E3127F2E29684A110083218E /* setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
 		E3127F3329684F730083218E /* FlightsNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsNetworkService.swift; sourceTree = "<group>"; };
+		E3BB98AF296A34C40041E5AF /* SettingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepository.swift; sourceTree = "<group>"; };
 		E3DD3BD429521BB800AE299D /* FlightS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DD3BD729521BB800AE299D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3DD3BD929521BB800AE299D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		E3127F3129684F0A0083218E /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				E3BB98AE296A34AB0041E5AF /* Setting */,
 				E3127F3229684F160083218E /* Network */,
 			);
 			path = Service;
@@ -106,6 +109,14 @@
 				E3127F3329684F730083218E /* FlightsNetworkService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		E3BB98AE296A34AB0041E5AF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB98AF296A34C40041E5AF /* SettingRepository.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		E3DD3BCB29521BB800AE299D = {
@@ -220,6 +231,7 @@
 				E3DD3BDA29521BB800AE299D /* SceneDelegate.swift in Sources */,
 				E3127F2F29684A110083218E /* setting.swift in Sources */,
 				E3127F2B29644DD80083218E /* AirportDTO.swift in Sources */,
+				E3BB98B0296A34C40041E5AF /* SettingRepository.swift in Sources */,
 				E3127F3429684F730083218E /* FlightsNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
