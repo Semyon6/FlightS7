@@ -37,10 +37,23 @@ final class NetworkServiceImpl: NetworkService  {
             completion(.failure(NetworkErrors.invalidURL))
             return
         }
-    
+        
         let request = urlSession.dataTask(with: url) { [jsonDecoder] data, response, error in switch (data, error) {
         case let (.some(data), nil):
             do {
-                let response = try jsonDecoder.decode(<#T##type: Decodable.Protocol##Decodable.Protocol#>, from: <#T##Data#>)
+                let response = try jsonDecoder.decode(T.self, from: data)
+                DispatchQueue.main.async {
+                    completion(.success(response))
+                }
+            } catch {
+                completion(.failure(error))
             }
+        case let (nil, .some(error)):
+            completion(.failure(error))
+        default:
+            completion(.failure(NetworkErrors.invalidState))
         }
+        }
+        request.resume()
+    }
+}
